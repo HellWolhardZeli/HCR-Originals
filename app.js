@@ -1,10 +1,16 @@
 const http = require('http');
 var express = require('express');
+var parser = require("body-parser");
+
 var app = express();
 
 
+app.use(parser.urlencoded({
+    extended: true
+}));
+
 app.get('/', function (req, res) {
-    res.send('<h1>Hello</h1>');
+    res.render("index.ejs");
 });
 
 
