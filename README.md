@@ -1,2 +1,2 @@
 # HCR-Originals
-Hackathon LNKM Hacks
+Hackathon LNM Hacks
