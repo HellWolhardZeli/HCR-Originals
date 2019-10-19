@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/45663b48-f3f9-4e86-bbb0-3817ae5346f7/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/HCR-Originals",
+    "appService.deploySubpath": ""
+}
