@@ -6,7 +6,7 @@ face=cv2.CascadeClassifier('face.xml')
 
 eye=cv2.CascadeClassifier('eye.xml')
 
-vid=cv2.VideoCapture("C:\\Users\\kumar\\Downloads\\cap7.mp4")
+vid=cv2.VideoCapture("C:\\Users\\kumar\\Downloads\\cap.mp4")
 count=0
 while 1:
 
